@@ -1,0 +1,89 @@
+.grid-projeto {
+  margin-top: 100px;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 100px;
+  margin: 100px auto 0px auto;
+}
+
+.grid-conteudo {
+  margin-top: 30px;
+  width: 215px;
+  gap: 15px;
+}
+
+.grid-conteudo h1 {
+  color: var(--c11, #171717);
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.5rem; /* 100% */
+}
+
+.grid-conteudo p {
+  margin-left: 2px;
+  margin-top: 15px;
+  color: var(--c9, #454545);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.grid-botao {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.grid-botao a {
+  text-decoration: none;
+  color: var(--c1, #f5f5f5);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 5px;
+  background: var(--c11, #171717);
+  padding: 10px 20px;
+}
+
+@media (max-width: 1100px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0px 20px;
+    padding: 20px 0px 0px 20px;
+  }
+
+  .grid-projeto {
+    margin: 40px 0;
+  }
+
+  .grid-botao {
+    margin: 0px;
+  }
+
+  #bikcraft {
+    display: none;
+  }
+
+  #bellapizza {
+    display: none;
+  }
+
+  #ret2 {
+    display: none;
+  }
+
+  #ret3 {
+    display: none;
+  }
+}

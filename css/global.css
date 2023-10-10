@@ -1,0 +1,33 @@
+body {
+  color: #171717;
+  font-family: "Fira Sans", Arial, sans-serif;
+  margin: 0px;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+nav img {
+  width: 25px;
+  height: 25px;
+}
+
+.formacao-cursosintensivos img {
+  width: 25px;
+  height: 25px;
+}
